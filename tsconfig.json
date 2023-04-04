@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "resolveJsonModule": true,
+    },
+    // 和webpack别名配置搭配
+    "baseUrl": "./",
+    "paths": {
+        "@src/*": ["./src/*"]
+    }
+}
